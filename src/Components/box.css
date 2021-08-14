@@ -1,0 +1,25 @@
+.box{
+    padding: 20px 30px;
+    text-align: left;
+    font-size: 15px;
+    font-family: SFProDisplay;
+}
+
+.box__div{
+    margin: 10px 0px;
+}
+
+.box__span{
+    font-weight: 600;
+}
+
+.box__span2{
+    margin-left: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    .box {
+        font-size: 13px;
+    }
+}
+

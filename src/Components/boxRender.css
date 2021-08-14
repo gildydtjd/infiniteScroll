@@ -1,0 +1,23 @@
+.boxrender{
+    width: 500px;
+    height: 193px;
+    left: 470px;
+    top: 33px;
+        
+    background: #F8F9FA;
+    border: 0.5px solid #CED4DA;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin: 14px;
+}
+
+@media screen and (max-width: 768px) {
+    .boxrender {
+        width: 90%;
+        height: 250;
+        left : unset;
+        top: unset;
+        margin-left: 5%;
+        margin-bottom: 10px;
+    }    
+}
